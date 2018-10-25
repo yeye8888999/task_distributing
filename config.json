@@ -1,0 +1,25 @@
+{
+  "cloud_config": {
+    "host": "10.2.5.70",
+    "port": 22,
+    "username": "root",
+    "password": "root@123456",
+    "put_path": ["/home/netdisk_dev/data/zhupan/files/"],
+    "local_path": "C:\\Users\\shihua.wang\\Desktop\\task_distributing\\img"
+  },
+  "dbconf": {
+    "host": "10.2.5.99",
+    "port": 20000,
+    "database": "MF",
+    "packet_collection": "label_packet",
+    "category_collection": "label_task_category",
+    "task_collection": "label_task",
+    "img_collection": "label_img",
+    "label_cc_task": "label_check_collection_task"
+  },
+  "query_criteria": {
+    "task_type": "动态人脸标注",
+    "check_state":"0",
+    "date":"2018-10-23"
+  }
+}
